@@ -1,0 +1,53 @@
+/*
+Theme Name:     Newspaper 6 Child theme
+Theme URI: 		http://themeforest.net/user/tagDiv/portfolio
+Description:    Child theme made by tagDiv
+Author:         tagDiv
+Author URI: 	http://themeforest.net/user/tagDiv/portfolio
+Template:       Newspaper                             
+Version:        6.0c
+*/
+
+
+/*  ----------------------------------------------------------------------------
+    This file will load automatically when the child theme is active. You can use it
+    for custom CSS.
+*/
+
+@import url("weather.css");
+
+i.fa.fa-home {
+    margin-right: 0px;
+}
+
+.AlpinePhotoTiles-image {
+    width: 100%;
+}
+/* custom responsive css from theme panel (Advanced CSS) */
+@media (min-width: 1141px) {
+.cmg-hidden-desktop { display: none; }
+}
+
+
+/* custom responsive css from theme panel (Advanced CSS) */
+@media (min-width: 1019px) and (max-width: 1140px) {
+.cmg-hidden-tabletl { display: none; }
+}
+
+
+/* custom responsive css from theme panel (Advanced CSS) */
+@media (min-width: 768px) and (max-width: 1018px) {
+.cmg-hidden-tabletp { display: none; }
+.menu-top-container { margin-right: 0px; }
+.td_data_time { margin-right: 8px; }
+}
+
+
+/* custom responsive css from theme panel (Advanced CSS) */
+@media (max-width: 767px) {
+.cmg-hidden-mobile { display: none; }
+.header-search-wrap .td-icon-search { color: #000 !important; }
+#td-top-mobile-toggle i { color: #000;}
+.td-header-wrap .td-header-menu-wrap-full, .td-header-wrap .td-header-menu-wrap, .td-header-wrap .td-header-main-menu { background-color: #fff !important; } { color: #000 !important; }
+.td-header-wrap .td-header-menu-wrap-full, .td-header-wrap .td-header-menu-wrap, .td-header-wrap .td-header-main-menu { background-color: #fff !important; }
+}
